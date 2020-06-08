@@ -1,0 +1,25 @@
+# ATP + D-fructose 6-phosphate => ADP + D-fructose 1,6-bisphosphate
+turnover_number = 0.4           # units: s^-1
+saturation_constant_ATP = 0.42  # units: mM
+saturation_constant_F6P = 0.11  # units: mM
+enzyme_concentration = 0.12     # units: μM
+concentration_F6P = 0.1         # units: mM
+concentration_ATP = 2.3         # units: mM
+concentration_Mg  = 5.0         # units: mM
+
+[data]
+path_AMP_data = "./data/Data-3-5-AMP.txt"
+path_ADP_data = "./data/Data-ADP.txt"
+
+[control_parameters]
+K1 = 0.044
+K2 = 74.028
+K3 = 1.0
+
+[control_parameters.ADP]
+binding_parameter = 1.0
+order_parameter = 0.5
+
+[control_parameters.AMP]
+binding_parameter = 0.4
+order_parameter = 4.0
