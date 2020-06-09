@@ -1,0 +1,14 @@
+ribsosome_copy_number=26000.0   # units: copies/cell source: BIND:101441
+ribosome_elongation_rate=14.0   # units: aa/s source: BIND:108487
+characteristic_read_length=333  # units: aa source: problem
+protein_read_length=300         # units: aa source: problem
+protein_half_life=24            # units: hr source: problem
+translation_sat_constant=200.0  # units: muM source:  problem
+mass_ecoli_cell=4.3e-13         # units: g/cell source: problem
+volume_ecoli_cell=1e-15         # units: L/cell source: problem
+ecoli_doubling_time=40          # units: min source: problem
+ecoli_fraction_water=0.70       # units: dimensionless source: problem
+tau_L=0.225                     # units: dimensionless source https://doi.org/10.1021/acssynbio.7b00465
+transcription_gain=1.2          # units: nmol/gDW   source: Prelim-1 (Golding data)
+
+
